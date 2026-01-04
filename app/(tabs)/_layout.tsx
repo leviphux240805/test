@@ -34,7 +34,7 @@ export default function TabLayout() {
         name="about"
         options={{
           title: 'About',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="circle.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="info.circle.fill" color={color} />,
         }}
       />
     </Tabs>
